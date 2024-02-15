@@ -30,12 +30,12 @@
 #define max(a,b) ( ((a) > (b)) ? (a) : (b) ) 
 #define min(a,b) ( ((a) < (b)) ? (a) : (b) ) 
 
-#define nb_max_link     10000
-#define nb_max_mass     10000
-#define nb_max_in       1000
-#define nb_max_out      1000
-#define nb_max_outlet   1000
-#define nb_max_inlet    1000 // hard-coded on the methods definition
+#define nb_max_link     65536
+#define nb_max_mass     65536
+#define nb_max_in       8192
+#define nb_max_out      8192
+#define nb_max_outlet   1024
+#define nb_max_inlet    1024 // hard-coded on the methods definition
 
 static t_class *pmpd3d_tilde_class;
 
