@@ -34,8 +34,8 @@
 #define nb_max_mass     10000
 #define nb_max_in       1000
 #define nb_max_out      1000
-#define nb_max_outlet   20
-#define nb_max_inlet    20 // hard-coded on the methods definition
+#define nb_max_outlet   1000
+#define nb_max_inlet    1000 // hard-coded on the methods definition
 
 static t_class *pmpd3d_tilde_class;
 
